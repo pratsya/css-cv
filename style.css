@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+body {
+  background: #f1f1f1;
+  color: #0f141e;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Special Elite", cursive;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.info{
+    margin-bottom: 20px;
+}
+
+@media (max-width:700px) {.info 
+    {display:block;
+    text-align: center;}
+
+}
+
+ a:active {
+    color:blue;
+ }
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 7px 7px 18px;rgba(0,0,0,0.30);
+}
+.info p {
+    color: #86898f;
+    font-style: italic;
+    font-weight: bolt;
+}
+.container {
+    max-width:750%;
+    margin:auto;
+    padding-top: 10px;
+}
+.social {
+background: powderblue;
+padding: 15px 40px;
+border: 5px solid red;
+margin:20px;
+}
+
+.bg-yellow {
+    background: rgb(231, 231, 185);
+}
+
+.bg-green {
+    background: rgb(191, 237, 191);
+}
+
+.bg-red {
+    background: rgb(227, 155, 155);
+}
+
+
+
+
+.card {
+    padding:15px 20px;
+    
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+
+    margin-bottom: 20px;
+}
+
+.list {
+    padding 0 20px;
+}
+
+.list li {
+    color: rgb(189, 169, 227);
+margin-bottom: 10px;
+border-bottom: 1px solid grey;
+
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color:rgb(176, 148, 26);
+}
+
+.table {
+    width: 100%;
+}
+
+.link-list {
+    list-style: none;
+
+}
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(37, 228, 53);
+}
+
+.contact h2 {
+text-align: center;
+}
+
+.form-group label {
+display: block;
+font-size: 14px;
+color: rgb(47, 20, 220);
+}
+.form-group input,textarea {
+box-sizing: border-box;
+    width: 100%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+font-family: inherit;
+
+}
+.row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 30px;
+}
+.row >.form-group:last-child {
+    margin: right 0;
+}
+
+.info {
+    display:flex;
+    margin-bottom: 20px;
+}
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+.btn {
+    background: rgb(0, 0, 0);
+    padding: 10px 15px;
+color: white;
+border: none;
+font-family: inherit;
+cursor: pointer;
+
+}
+.btn :hover {
+    opacity: 0.9;
+}
+
